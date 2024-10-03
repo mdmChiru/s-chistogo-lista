@@ -6,16 +6,29 @@ body {
   margin: 0;
   font-family: "Inter", Helvetica, sans-serif;
   font-weight: 400;
-  background-color: #131313;
   background-color: blanchedalmond;
 }
 
-h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+blockquote {
   margin: 0;
   padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "EB Garamond", Georgia, serif;
   font-style: normal;
   font-size: 28px;
@@ -23,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
-.content-section{
+.content-section {
   margin: 0 auto;
   max-width: 360px;
 }
@@ -34,16 +47,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .content-section_theme_bright {
-  background-color: #FEE42A;
+  background-color: #fee42a;
   color: #131313;
 }
 
-.header, .intro__heading, .footer{
+.header,
+.intro__heading,
+.footer {
   display: flex;
   justify-content: space-between;
 }
 
-.header{
+.header {
   padding: 24px 20px 12px;
 }
 
@@ -55,8 +70,12 @@ h1, h2, h3, h4, h5, h6 {
   list-style: none;
 }
 
-.header__menu-link{
+.header__menu-link {
   color: #f5f5f5;
+}
+
+.header__logo-image {
+  height: 15px;
 }
 
 .header__menu-item_active {
@@ -64,8 +83,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .cover {
-  height: 237px;
-  padding: 7px 24px 0 21px;
+  height: 240px;
+  padding: 8px 24px 0 21px;
   background-image: url(../images/cover.svg);
   background-repeat: no-repeat;
   background-size: 95%;
@@ -105,7 +124,8 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 21.7px;
 }
 
-.reasons, .how-to {
+.reasons,
+.how-to {
   padding: 40px 20px 39px;
 }
 
@@ -118,7 +138,8 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 20px;
 }
 
-.content-section__list, .content-section__card-list {
+.content-section__list,
+.content-section__card-list {
   display: flex;
   flex-wrap: wrap;
 }
@@ -128,9 +149,6 @@ h1, h2, h3, h4, h5, h6 {
   row-gap: 16px;
   font-size: 16px;
   line-height: 21.6px;
-}
-
-.content-section__list-item {
 }
 
 .content-section__list-accent {
@@ -145,7 +163,6 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 32px;
   row-gap: 32px;
   list-style: none;
-
 }
 .card {
   padding: 20px;
@@ -158,7 +175,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .card_theme_bright {
-  background-color: #FEE42A;
+  background-color: #fee42a;
   color: #131313;
 }
 
@@ -174,7 +191,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .card__author-name {
-  padding : 7px 0;
+  padding: 7px 0;
   font-size: 16px;
   font-weight: 700;
   line-height: 135%;
