@@ -71,6 +71,8 @@ h6 {
 }
 
 .header__menu-link {
+  line-height: 19px;
+  font-size: 16px;
   color: #f5f5f5;
 }
 
@@ -83,7 +85,7 @@ h6 {
 }
 
 .cover {
-  height: 240px;
+  min-height: 240px;
   padding: 8px 24px 0 21px;
   background-image: url(../images/cover.svg);
   background-repeat: no-repeat;
@@ -94,6 +96,7 @@ h6 {
 .cover__title {
   font-size: 72px;
   line-height: 100%;
+  color: #fff;
 }
 
 .accent-span {
@@ -109,11 +112,18 @@ h6 {
 }
 
 .intro {
-  padding: 20px 20px 38px;
+  padding: 20px 20px 14px;
 }
 
 .intro__heading {
   padding-bottom: 24px;
+}
+
+.intro__title {
+  font-family: "Inter", Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 120%;
+  color: #CCCCCC;
 }
 
 .time {
@@ -121,21 +131,24 @@ h6 {
 }
 
 .intro__main-text {
-  line-height: 21.7px;
+  line-height: 21.6px;
+  padding-bottom: 24px;
 }
 
 .reasons,
 .how-to {
-  padding: 40px 20px 39px;
+  padding: 40px 20px 40px;
 }
 
 .content-section__subtitle {
   padding-bottom: 32px;
   letter-spacing: 0.6px;
+  line-height: 112%;
 }
 
 .content-section__introduction {
   font-size: 20px;
+  line-height: 27px;
 }
 
 .content-section__list,
@@ -145,7 +158,7 @@ h6 {
 }
 
 .content-section__list {
-  padding: 33px 14px 0;
+  padding: 32px 0 0 16px;
   row-gap: 16px;
   font-size: 16px;
   line-height: 21.6px;
@@ -179,10 +192,15 @@ h6 {
   color: #131313;
 }
 
+.card__author-photo {
+  border-radius: 50%;
+}
+
 .card__title {
   padding-bottom: 7px;
   font-size: 22px;
   line-height: 135%;
+  letter-spacing: 0.3px;
 }
 
 .card__text {
@@ -191,7 +209,7 @@ h6 {
 }
 
 .card__author-name {
-  padding: 7px 0;
+  padding: 7px 0 6px;
   font-size: 16px;
   font-weight: 700;
   line-height: 135%;
@@ -207,4 +225,9 @@ h6 {
   column-gap: 16px;
   font-size: 14px;
   list-style: none;
+}
+
+.footer__links-item{
+  text-decoration: none;
+  color: #f5f5f5;
 }
